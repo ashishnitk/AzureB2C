@@ -1,0 +1,27 @@
+{
+    "credentials": {
+        "tenantName": "epeb2cdemo.onmicrosoft.com",
+        "clientID": "1989737d-d974-40b1-9592-24271242d2f3"
+    },
+    "policies": {
+        "policyName": "B2C_1_susi"
+    },
+    "metadata": {
+        "b2cDomain": "epeb2cdemo.b2clogin.com",
+        "authority": "login.microsoftonline.com",
+        "discovery": ".well-known/openid-configuration",
+        "version": "v2.0"
+    },
+    "settings": {
+        "isB2C": true,
+        "validateIssuer": false,
+        "passReqToCallback": false,
+        "loggingLevel": "info"
+    },
+    "protectedRoutes": {
+        "hello": {
+            "endpoint": "/hello",
+            "scopes": ["demo.read"]
+        }
+    }
+}
