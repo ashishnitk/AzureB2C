@@ -127,7 +127,7 @@ Open the project in your IDE (like Visual Studio or Visual Studio Code) to confi
 
 1. Open the `API\config.json` file.
 1. Find the key `credentials.clientID` and replace the existing value with the application ID (clientId) of `msal-react-api` app copied from the Azure portal.
-1. Find the key `credentials.tenantName` and replace the existing value with your Azure AD B2C tenant's name (e.g. `fabrikamb2c.onmicrosoft.com`).
+1. Find the key `credentials.tenantName` and replace the existing value with your Azure AD B2C tenant's name (e.g. `epeb2cdemo.onmicrosoft.com`).
 1. Find the key `protectedRoutes.hello.scopes` and replace the existing value with the name of the scope you've just exposed (e.g. `demo.read`).
 
 ### Register the spa app (msal-react-spa)
