@@ -10,8 +10,6 @@
  1. [Explore the sample](#explore-the-sample)
  1. [About the code](#about-the-code)
  1. [More information](#more-information)
- 1. [Community Help and Support](#community-help-and-support)
- 1. [Contributing](#contributing)
 
 ## Overview
 
@@ -27,16 +25,6 @@ Here you'll learn how to [register a protected web API](https://docs.microsoft.c
 
 ![Overview](./ReadmeFiles/topology.png)
 
-## Contents
-
-| File/folder         | Description                                         |
-|---------------------|-----------------------------------------------------|
-| `SPA/App.jsx`       | Main application logic resides here.                |
-| `SPA/fetch.jsx`     | Provides a helper method for making fetch calls.    |
-| `SPA/authConfig.js` | Contains authentication parameters for SPA project. |
-| `API/config.js`     | Contains authentication parameters for API project. |
-| `API/index.js`      | Main application logic of custom web API.           |
-
 ## Prerequisites
 
 - An **Azure AD B2C** tenant. For more information see: [How to get an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-create-tenant)
@@ -49,7 +37,7 @@ Here you'll learn how to [register a protected web API](https://docs.microsoft.c
 From your shell or command line:
 
 ```console
-    git clone https://github.com/Azure-Samples/ms-identity-javascript-react-tutorial.git
+    git clone https://github.com/ashishnitk/AzureB2C.git
 ```
 
 or download and extract the repository .zip file.
@@ -61,8 +49,6 @@ or download and extract the repository .zip file.
 - Setup the service app:
 
 ```console
-    cd ms-identity-javascript-react-tutorial
-    cd 3-Authorization-II/2-call-api-b2c
     cd API
     npm install
 ```
@@ -170,14 +156,14 @@ To setup your B2C user-flows, do the following:
 - Run the service app:
 
 ```console
-    cd 3-Authorization-II/2-call-api-b2c/API
+    cd API
     npm start
 ```
 
 - In a separate terminal, run the client app:
 
 ```console
-    cd 3-Authorization-II/2-call-api-b2c/SPA
+    cd SPA
     npm start
 ```
 
@@ -248,19 +234,3 @@ For the purpose of the sample, **cross-origin resource sharing** is enabled for 
 - [Use MSAL.js to work with Azure AD B2C](https://docs.microsoft.com/azure/active-directory/develop/msal-b2c-overview)
 
 For more information about how OAuth 2.0 protocols work in this scenario and other scenarios, see [Authentication Scenarios for Azure AD](https://docs.microsoft.com/azure/active-directory/develop/authentication-flows-app-scenarios).
-
-## Community Help and Support
-
-Use [Stack Overflow](http://stackoverflow.com/questions/tagged/msal) to get support from the community.
-Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before.
-Make sure that your questions or comments are tagged with [`azure-active-directory` `azure-ad-b2c` `ms-identity` `adal` `msal`].
-
-If you find a bug in the sample, raise the issue on [GitHub Issues](../../../../issues).
-
-To provide feedback on or suggest features for Azure Active Directory, visit [User Voice page](https://feedback.azure.com/forums/169401-azure-active-directory).
-
-## Contributing
-
-If you'd like to contribute to this sample, see [CONTRIBUTING.MD](/CONTRIBUTING.md).
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
