@@ -199,15 +199,6 @@ Open the project in your IDE (like Visual Studio or Visual Studio Code) to confi
     npm start
 ```
 
-## Explore the sample
-
-> Explain how to explore the sample.
-> Insert a screenshot of the client application.
-
-> :information_source: Did the sample not work for you as expected? Then please reach out to us using the [GitHub Issues](../../../issues) page.
-
-> :information_source: if you believe your issue is with the B2C service itself rather than with the sample, please file a support ticket with the B2C team by following the instructions [here](https://docs.microsoft.com/en-us/azure/active-directory-b2c/support-options).
-
 ## We'd love your feedback!
 
 Were we successful in addressing your learning objective? Consider taking a moment to [share your experience with us](Enter_Survey_Form_Link).

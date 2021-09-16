@@ -173,7 +173,6 @@ To setup your B2C user-flows, do the following:
 1. Select the **Sign In** button on the top right corner. Choose either **Popup** or **Redirect** flows.
 1. Select the **HelloAPI** button on the navigation bar. This will make a call to your web API.
 
-![Screenshot](./ReadmeFiles/screenshot.jpg)
 
 > :information_source: Did the sample not work for you as expected? Then please reach out to us using the [GitHub Issues](../../../../issues) page.
 
