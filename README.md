@@ -157,7 +157,7 @@ Open the project in your IDE (like Visual Studio or Visual Studio Code) to confi
 
 1. Open the `SPA\src\authConfig.js` file.
 1. Find the key `msalConfig.auth.clientId` and replace the existing value with the application ID (clientId) of `msal-react-spa` app copied from the Azure portal.
-1. Find the key `protectedResources.apiHello.scopes` and replace the existing value with the scope of `msal-react-api` that you have exposed in the previous steps (e.g. `https://fabrikamb2c.onmicrosoft.com/helloapi/demo.read`).
+1. Find the key `protectedResources.apiHello.scopes` and replace the existing value with the scope of `msal-react-api` that you have exposed in the previous steps (e.g. `https://epeb2cdemo.onmicrosoft.com/helloapi/demo.read`).
 
 To setup your B2C user-flows, do the following:
 
